@@ -1,0 +1,42 @@
+* {
+  background-color: aqua;
+}
+
+.paragraf {
+  font-family: georgia;
+  text-align: justify;
+}
+
+.heading1 {
+  color: darkblue;
+  font-size: 60px;
+  font-family: Comic Sans MS;
+  text-align: center;
+}
+
+.textname-heading1 {
+  color: darkblue;
+}
+
+.date {
+  text-align: right;
+  font-family: georgia;
+  font-style: italic;
+}
+
+.paragrafpertama {
+  text-align: center;
+  color: orange;
+}
+
+.textname-heading1 {
+  color: white;
+}
+
+.paragrafkedua {
+  text-align: right;
+}
+
+h3 {
+  font-family: georgia;
+}

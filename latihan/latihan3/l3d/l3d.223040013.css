@@ -1,0 +1,55 @@
+body {
+  background-color: white;
+  background-image: url("img/background.png");
+  background-repeat: repeat-x;
+}
+
+.heading1 {
+  color: darkblue;
+  font-size: 60px;
+  font-family: Comic Sans MS;
+  text-align: center;
+}
+
+.textname-heading1 {
+  color: darkblue;
+}
+
+.date {
+  text-align: center;
+  font-family: georgia;
+  font-style: oblique;
+}
+
+.paragrafpertama {
+  text-align: center;
+  color: orange;
+  font-style: georgia;
+}
+h3 a {
+  color: white;
+}
+
+h3 a:hover {
+  color: red;
+}
+
+.paragrafkedua {
+  text-align: right;
+  font-family: georgia;
+}
+
+h3 {
+  font-family: georgia;
+  text-align: center;
+}
+
+.linkfb:hover {
+  text-decoration: none;
+  background-color: blue;
+  color: white;
+}
+
+.linkfb {
+  text-decoration-line: none;
+}

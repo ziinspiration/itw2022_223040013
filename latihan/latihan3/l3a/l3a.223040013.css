@@ -1,0 +1,28 @@
+* {
+  background-color: aqua;
+}
+
+.paragraf {
+  font-family: georgia;
+  text-align: justify;
+}
+
+.heading1 {
+  color: darkblue;
+  font-size: 60px;
+  font-family: Comic Sans MS;
+}
+
+.textname-heading1 {
+  color: darkblue;
+}
+
+.date {
+  text-align: right;
+  font-family: georgia;
+  font-style: italic;
+}
+
+h3 {
+  font-family: Georgia;
+}

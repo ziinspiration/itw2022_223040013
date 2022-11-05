@@ -1,0 +1,77 @@
+h1 {
+  color: salmon;
+  font-family: arial;
+  font-size: 50px;
+}
+
+p {
+  color: green;
+}
+
+h3.paragraf2 {
+  color: blue;
+}
+
+#p3 {
+  color: orange;
+}
+
+ol li a {
+  color: red;
+}
+
+ol li a:hover {
+  text-decoration: none;
+  background-color: red;
+  color: white;
+}
+
+.cetak-miring {
+  font-style: italic;
+}
+
+#huruf-besar {
+  text-transform: uppercase;
+}
+
+.itw {
+  color: blue;
+  text-align: center;
+  font-size: 20px;
+}
+
+.itw:hover {
+  color: salmon;
+  font-size: 25px;
+  text-transform: uppercase;
+  text-decoration: line-through;
+}
+
+.kotak {
+  width: 150px;
+  height: 150px;
+  background-color: salmon;
+  margin: auto;
+  transition: 3s;
+}
+
+.kotak:hover {
+  border-radius: 50%;
+  transform: rotate(360deg);
+  background-color: lightblue;
+}
+
+.kotakkecil {
+  background-color: aqua;
+  width: 75px;
+  height: 75px;
+  margin: auto;
+  transform: rotate(45deg);
+  transition: 3s;
+}
+
+.kotakkecil:hover {
+  border-radius: 50%;
+  transform: rotate(360deg);
+  background-color: rebeccapurple;
+}
