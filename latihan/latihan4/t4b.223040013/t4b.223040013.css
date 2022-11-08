@@ -1,0 +1,144 @@
+body {
+  background-color: whitesmoke;
+}
+
+.header {
+  background-color: rgb(82, 62, 62);
+  width: 100%;
+  height: 125px;
+  margin: auto;
+}
+
+.footer {
+  background-color: rgb(82, 62, 62);
+  width: 100%;
+  height: 25px;
+  margin: auto;
+}
+
+h1 {
+  padding-left: 25px;
+  padding-top: 15px;
+  font-family: cambria;
+  color: goldenrod;
+  text-decoration: underline;
+}
+
+.footer p {
+  text-align: center;
+  color: antiquewhite;
+  padding-top: 6px;
+  font-family: arial;
+  font-size: 12px;
+}
+
+.afooterheader a {
+  text-decoration-line: none;
+  color: white;
+}
+
+.afooterheader a:hover {
+  background-color: red;
+  color: white;
+  transition: 1s;
+}
+
+ul li {
+  display: inline-block;
+  margin-top: 1px;
+  margin-right: 15px;
+}
+
+.zii {
+  color: blue;
+}
+
+.nsp {
+  color: white;
+}
+
+.iration {
+  color: red;
+}
+
+.com {
+  color: black;
+}
+
+.head1 {
+  font-size: 55px;
+  font-family: verdana;
+  padding-top: 50px;
+}
+
+.ilustrasi1 {
+  font-size: 12px;
+  color: gray;
+  padding-left: 230px;
+}
+
+.main {
+  padding-left: 20px;
+}
+
+.p1 {
+  font-family: "Times New Roman", Times, serif;
+  text-align: left;
+  padding-top: 30px;
+}
+
+.nextbutton a {
+  color: black;
+  font-family: arial;
+}
+
+.nextbutton a:hover {
+  color: red;
+  font-size: 17px;
+}
+
+.nextbutton {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  text-align: right;
+  padding-right: 50px;
+}
+
+/* CSS SLIDE KE 2 */
+
+.head1slide2 {
+  font-family: verdana;
+  font-size: 30px;
+}
+
+.mainslide2 {
+  padding-left: 20px;
+  padding-bottom: 30px;
+}
+
+.p1slide2 {
+  font-family: "Times New Roman", Times, serif;
+  text-align: left;
+  padding-top: 20px;
+}
+
+.jenisprogrammerhead {
+  font-size: 20px;
+  font-family: arial;
+}
+
+.sumberakhir {
+  color: gray;
+  padding-top: 30px;
+  font-style: italic;
+  font-family: arial;
+}
+
+.sumberakhir a {
+  color: gray;
+}
+
+.sumberakhir a:hover {
+  color: red;
+  font-size: 17px;
+}
