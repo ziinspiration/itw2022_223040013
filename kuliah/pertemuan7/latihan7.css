@@ -1,0 +1,84 @@
+.kotak1 {
+  width: 150px;
+  height: 150px;
+  background-color: rgba(250, 128, 114, 0.5);
+  margin: auto;
+  border-radius: 50% 0 50% 0;
+  /* opacity: 1; */
+  position: relative;
+  /* z-index: 10; */
+  overflow: hidden;
+}
+
+.p1 {
+  position: relative;
+  top: -70px;
+}
+
+.kotak2 {
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  background-color: grey;
+  /* 5 px pada box shadow black adalah spread / size */
+  /* inset pada box shadow black adalah untuk bayangan kedalam */
+  box-shadow: inset 0px 0px 10px 4px rgb(0, 0, 0, 0.6), 3px -3px 5px red,
+    3px 3px 5px greenyellow, -3px 3px 5px blue;
+  border-radius: 50%;
+}
+
+h1 {
+  text-align: center;
+  text-shadow: 0 0 9px black, 0 0 50px orange, 0 0 70px orangered, 0 0 100px red;
+  color: white;
+  font-family: arial;
+  margin-top: 100px;
+  font-size: 100px;
+}
+
+.kotak3 {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  background-color: red;
+  border-radius: 25px;
+
+  /* KASIH DI HOVER DAN CLASS UTAMA AGAR KEDUANYA SMOOTH*/
+  transition: 4s;
+
+  /* CSS UNTUK FONT PADA KOTAK 3 */
+  font-family: arial;
+  text-align: center;
+  font-size: 20px;
+  /* line height untuk menurunkan posisi text*/
+  line-height: 200px;
+}
+
+.kotak3:hover {
+  transform: rotate(360deg);
+  background-color: blue;
+  color: white;
+  border-radius: 50%;
+  transition: 1s background-color, 2s 1s border-radius, 3s transform;
+
+  /* UNTUK POSISI BERPINDAH */
+  /* transform: translate( 100px, 100px); */
+  /* transform: translateX(100px); */
+
+  /* UNTUK MEMPERBESAR / PERKECIL */
+  /* transform: scale(0.5); */
+  /* transform: scale(2); */
+
+  /* UNTUK MEMIRINGKAN */
+  /* transform: skew(29deg); */
+  /* transform: skew(-29deg); */
+
+  /* UNTUK BERPUTAR */
+  /* transform: rotate(45deg); */
+
+  /* UNTUK TRANSISI EFEK */ /* 2s dibawah yaitu delay efek*/
+  /* transition: 4s; 
+  transition: 4s all; 
+  transition: 4s transform, 6s 2s background-color; 
+  */
+}
